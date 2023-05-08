@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const fs = require("fs");
-const { v4: uuidv4 } = require('uuid');
+
 
 // define the get request for the notes page
 router.get("api/notes", async (req, res) => {
@@ -14,7 +14,7 @@ router.post("api/notes", (req, res) => {
     const newNote = {
         title: req.body.title,
         text: req.body.text,
-        id: uuidv4(),
+        
     };
  dbJson.push(newNote);
     fs.writeFileSync("db/db.json", JSON.stringify (dbJson));
