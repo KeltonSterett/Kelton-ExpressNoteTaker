@@ -26,7 +26,7 @@
 
 
   ## Usage
-  1.Here is the link to the deplyed app: (insert link here)
+  1. Here is the link to the deplyed app: https://kelton-expressnotetaker.herokuapp.com/
   2. Click "Get Started" to open the note taker.
   3. Enter text into the 'title' and 'text' fields
   4. Click the save icon (top right) to save the note.
