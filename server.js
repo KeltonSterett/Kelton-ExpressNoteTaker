@@ -6,7 +6,7 @@ const htmlRoutes = require("./routes/html-routes");
 const app = express();
 // setting the port
 const PORT = process.env.PORT || 3001;
-// setting up the express app to handle data parsing
+// middleware setting up the express app to handle data parsing
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 // setting up the express app to serve static files
